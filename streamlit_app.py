@@ -27,7 +27,7 @@ def transformar_datos(df):
 
     # Filtrar datos
     df = df[df['Rol'] == 'Comercial']
-    df = df[df['PAIS'] == 'COLOMBIA']
+    df = df[df['PAIS'] == 'MEXICO']
     df = df[df['EMPRESA'] == 'BROKERS']
 
     # Guardar variables originales antes de la transformación
